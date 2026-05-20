@@ -173,6 +173,7 @@ Q.socialism = 40;
 Q.pro_republic = 59;
 
 Q.emergency_rule = 0;
+Q.social_fascism = 0;
 
 // minimum percentage of votes to be represented in the Reichstag
 Q.electoral_threshold = 0;
