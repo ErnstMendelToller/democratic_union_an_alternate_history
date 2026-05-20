@@ -49,7 +49,7 @@ The programs of the Nordic socialists involve active government intervention in 
 
 @comintern
 subtitle: -1 resources 
-choose-if: resources >= 1 and social_fascism = 1;
+choose-if: resources >= 1 and social_fascism == 1;
 unavailable-subtitle: Not enough resources. [? if social_fascism < 1 : Why would we do this? ?]
 on-arrival: resources -= 1; kpd_relation += 5*(1-dissent); communist_coalition += 1 if comintern_seen == 0; comintern_seen += 1
 
