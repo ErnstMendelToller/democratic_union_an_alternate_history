@@ -58,7 +58,7 @@ for (var party of Q.parties) {
         results.push({ name: Q[party], votes: Q[party + '_votes'] });
     }
 
-    results.sort(function(a, b){return b.votes - a.votes});
+
 
 
 
