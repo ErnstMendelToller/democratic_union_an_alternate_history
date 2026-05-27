@@ -42,6 +42,7 @@ on-arrival: {!
 // election threshold constitutional reform
 // banning parties
 var new_party_sum = 0;
+const results = []
 for (var party of Q.parties) {
     Q['old_' + party + '_r'] = Q[party + '_r'];
     if (Q.constitutional_reform > 0) {
@@ -51,9 +52,16 @@ for (var party of Q.parties) {
             Q[party + '_r'] = Q[party + '_votes'];
         }
         new_party_sum += Q[party + '_r'];
+        results.push({ name: Q[party], votes: Q[party + '_votes'] });
     } else {
-        Q[party + '_r'] = Q[party + '_votes'];
+        Q[party + '_r'] = Q[party + '_votes'];  
+        results.push({ name: Q[party], votes: Q[party + '_votes'] });
     }
+
+    results.sort(function(a, b){return b.votes - a.votes});
+
+
+
     // if we use decimals, then we might want to truncate the numbers
     if (Q.use_decimals) {
         Q[party + '_r_disp'] = Q[party+'_r'].toFixed(1);
