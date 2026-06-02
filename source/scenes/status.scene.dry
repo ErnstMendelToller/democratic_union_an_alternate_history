@@ -40,7 +40,7 @@ Government Type: [+ government_type +]
 Parliament composition:
 
 # 1928: 30, 1930: 25, 1932: 22
-{!<span class="tooltip-text" title="Farmer and Labour Party of Greece">AEKE</span>!}: [+ spd_r +]%
+{!<span class="tooltip-text" title="Farmer and Labour Party of Greece" style="color:LightCoral" style="font-weight:700">AEKE</span>!}: [+ spd_r +]%
 [? if sapd_formed and sapd_r > 0: SAPD: [+ sapd_r +]% ?]
 # 1928: 15, 1930: 15, 1932: 
 {!<span class="tooltip-text" title="Liberal Party">KF</span>!}: [+ z_r +]%
