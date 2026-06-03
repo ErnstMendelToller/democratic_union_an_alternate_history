@@ -53,7 +53,7 @@ Parliament composition:
 # 1928: 14, 1930: 7
 {!<span class="party-tooltip-text" title="Communist Party of Greece" style="color:DarkRed">KKE</span>!}: [+ dnvp_r +]%
 # 1928: 3, 1930: 18
-{!<span class="party-tool"tip-text" title="Farmers' Party of Greece" style="color:Green">AKE</span>!}: [+ nsdap_r +]%
+{!<span class="party-tooltip-text" title="Farmers' Party of Greece" style="color:Green">AKE</span>!}: [+ nsdap_r +]%
 # 1928: 9, 1930: 10
 Misc. Venizelists: [+ other_r +]%
 Misc. Anti-Venizelists: [+ other_r +]%
