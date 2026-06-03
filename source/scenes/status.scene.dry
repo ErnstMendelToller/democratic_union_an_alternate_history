@@ -47,13 +47,13 @@ Parliament composition:
 # 1928: 10, 1930: 13
 {!<span class="party-tooltip-text" title="People's Party" style="color:RoyalBlue">LK</span>!}: [+ kpd_r +]%
 # 1928: 5, 1930: 4 (as DstP)
-{!<span class="party-tooltip-text" title="Freethinkers' Party">KE</span>!}: [+ ddp_r +]%
+{!<span class="party-tooltip-text" title="Freethinkers' Party" style="color:0F0D78">KE</span>!}: [+ ddp_r +]%
 # 1928: 9, 1930: 5
 {!<span class="party-tooltip-text" title="Progressive Party">PK</span>!}: [+ dvp_r +]%
 # 1928: 14, 1930: 7
 {!<span class="party-tooltip-text" title="Communist Party of Greece" style="color:DarkRed">KKE</span>!}: [+ dnvp_r +]%
 # 1928: 3, 1930: 18
-{!<span class="party-tooltip-text" title="Farmers' Party of Greece" style="color:Green">AKE</span>!}: [+ nsdap_r +]%
+{!<span class="party-tool"tip-text" title="Farmers' Party of Greece" style="color:Green">AKE</span>!}: [+ nsdap_r +]%
 # 1928: 9, 1930: 10
 Misc. Venizelists: [+ other_r +]%
 Misc. Anti-Venizelists: [+ other_r +]%
