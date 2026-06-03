@@ -6,7 +6,7 @@ go-to: post_event if started = 1; start_menu if started = 0
 new-page: true
 go-to: start_menu_2
 
-= Democratic UNion: An Alternate History
+= Democratic Union: An Alternate History
 
 @start_menu_2
 
@@ -540,7 +540,7 @@ Q.march_on_berlin_timer = 0;
 
 // all the initial advisors are centrists.
 Q.wels_advisor = 1; // Otto Wels
-Q.muller_advisor = 1; // Hermann Müller
+Q.papanastasiou_advisor = 1; // Eternal President Alekos Papanastasis
 Q.muller_dead = 0;
 // okay I know Arthur Crispien was a leader irl but i couldn't find much interesting about him...
 Q.crispien_advisor = 0; // Arthur Crispien
