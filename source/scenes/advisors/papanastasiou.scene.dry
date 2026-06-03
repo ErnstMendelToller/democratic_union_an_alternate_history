@@ -1,14 +1,14 @@
-title: Hermann Müller
+title: Alexandros Papanastasiou
 is-pinned-card: true 
 tags: advisor, centrist
-card-image: img/portraits/MüllerHermann.jpg
+card-image: img/portraits/PapanastasiouAlexandros.jpg
 new-page: true
-view-if: muller_advisor = 1
+view-if: papanastasiou_advisor = 1
 
-= Herman Müller
+= Alexandros Papanastasiou
 
 
-Müller is a former [? if chancellor = "Müller": and current ?] Chancellor, and is a long-time Social Democratic leader.
+Papanastasiou is the founder and long-time president of our party.
 
 - @coalition
 - @toleration
