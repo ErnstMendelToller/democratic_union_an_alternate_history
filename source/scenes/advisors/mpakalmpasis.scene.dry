@@ -17,8 +17,8 @@ Mpakalmpasis is an agrarian leader and vice-president of our party.
 - @root: Return to main
 
 @clear_agenda
-title: Clear the agenda
-subtitle: Removes all cards from the hand.
+title: Deurbanisation
+subtitle: Destroys all urban settlements. Use sparsely.
 choose-if: advisor_action_timer = 0
 unavailable-subtitle: [? if advisor_action_timer > 0 : [+ advisor_action_timer +] months before next advisor action. ?]
 on-arrival: {!
