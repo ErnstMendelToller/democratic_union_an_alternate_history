@@ -33,7 +33,7 @@ Internal dissent: [+ dissent_percent : dissent +]
 
 President: [+ president +]
 
-Prime Minister: {? if chancellor_party == "KF" : <span style="color:goldenrod">[+ chancellor +]</span> ?} [+ chancellor +] ([+ chancellor_party +])
+Prime Minister: [? if chancellor_party == "KF" : <span style="color:goldenrod">[+ chancellor +]</span> ?] ([+ chancellor_party +])
 
 Government Type: [+ government_type +]
 
