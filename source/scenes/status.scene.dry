@@ -20,7 +20,7 @@ if (Q.economic_growth) {
 
 Resources available: [+ resources +]
 
-[+ de_name +] position: [? if spd_toleration : toleration ?][? if spd_in_government : in government - ?][? if spd_toleration == 0 and spd_in_government == 0 and spd_caretaker == 0 : opposition ?][? if spd_caretaker : caretaker government ?]
+<span style="color:LightCoral">[+ de_name +]</span> position: [? if spd_toleration : toleration ?][? if spd_in_government : in government - ?][? if spd_toleration == 0 and spd_in_government == 0 and spd_caretaker == 0 : opposition ?][? if spd_caretaker : caretaker government ?]
 [? if in_weimar_coalition and spd_in_government: Weimar Coalition ?][? if in_grand_coalition and spd_in_government: Grand Coalition ?][? if in_popular_front and spd_in_government: Popular Front ?][? if in_left_front and spd_in_government: Left Front ?][? if in_spd_majority and spd_in_government: SPD majority ?][? if in_minority_government and spd_in_government: minority government ?][? if in_emergency_government and spd_in_government: emergency government ?]
 
 [? if spd_in_government and not in_spd_majority and not in_left_front : Coalition dissent: [+ coalition_dissent : coalition_dissent +] ?]
@@ -40,7 +40,7 @@ Government Type: [+ government_type +]
 Parliament composition:
 
 # 1928: 30, 1930: 25, 1932: 22
-{!<span class="party-tooltip-text" title="Agricultural and Labour Party of Greece" style="color:LightCoral" style="font-weight: bold;">AEKE</span>!}: [+ spd_r +]%
+{!<span class="party-tooltip-text" title="[+ de_name +]" style="color:LightCoral" style="font-weight: bold;">AEKE</span>!}: [+ spd_r +]%
 [? if sapd_formed and sapd_r > 0: SAPD: [+ sapd_r +]% ?]
 # 1928: 15, 1930: 15, 1932: 
 {!<span class="party-tooltip-text" title="Liberal Party" style="color:Goldenrod">KF</span>!}: [+ z_r +]%
