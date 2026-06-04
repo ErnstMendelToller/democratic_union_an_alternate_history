@@ -2,7 +2,7 @@ title: Anastasios Mpakalmpasis
 is-pinned-card: true
 tags: advisor, centrist
 card-image: img/portraits/MpakalmpasisA.jpg
-view-if: Q.mpakalmpasis_advisor = 1
+view-if: mpakalmpasis_advisor = 1
 new-page: true
 
 = Anastasios Mpakalmpasis
