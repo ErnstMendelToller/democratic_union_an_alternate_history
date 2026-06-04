@@ -338,6 +338,16 @@ a.card:hover {
   left: -5px;
   top: -5px;
 }
+a.president-card {
+  display: inline-block;
+  width: 120px;
+  height: 150px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  border: 10px solid #F88379;
+  margin-bottom: 0.5em;
+  position: relative;
+}
+  
 div.blank-card {
   display: inline-block;
   width: 120px;
@@ -569,8 +579,15 @@ table {
 .seat.sapd {
     fill: #C40000;
 }
-
+.seat.aeke {
+    fill: #F88379
+}
 .tooltip-text {
     text-decoration: underline;
     text-decoration-style: dotted;
+}
+.party-tooltip-text {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    font-weight: bold;
 }

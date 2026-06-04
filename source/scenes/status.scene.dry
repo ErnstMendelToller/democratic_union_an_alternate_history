@@ -40,20 +40,20 @@ Government Type: [+ government_type +]
 Parliament composition:
 
 # 1928: 30, 1930: 25, 1932: 22
-{!<span class="tooltip-text" title="Farmer and Labour Party">AEK</span>!}: [+ spd_r +]%
+{!<span class="party-tooltip-text" title="Agricultural and Labour Party of Greece" style="color:LightCoral" style="font-weight: bold;">AEKE</span>!}: [+ spd_r +]%
 [? if sapd_formed and sapd_r > 0: SAPD: [+ sapd_r +]% ?]
 # 1928: 15, 1930: 15, 1932: 
-{!<span class="tooltip-text" title="Liberal Party">KF</span>!}: [+ z_r +]%
+{!<span class="party-tooltip-text" title="Liberal Party" style="color:Goldenrod">KF</span>!}: [+ z_r +]%
 # 1928: 10, 1930: 13
-{!<span class="tooltip-text" title="People's Party">LK</span>!}: [+ kpd_r +]%
+{!<span class="party-tooltip-text" title="People's Party" style="color:RoyalBlue">LK</span>!}: [+ kpd_r +]%
 # 1928: 5, 1930: 4 (as DstP)
-{!<span class="tooltip-text" title="Freethinkers' Party">KE</span>!}: [+ ddp_r +]%
+{!<span class="party-tooltip-text" title="Freethinkers' Party" style="color:0F0D78">KE</span>!}: [+ ddp_r +]%
 # 1928: 9, 1930: 5
-{!<span class="tooltip-text" title="Progressive Party">PK</span>!}: [+ dvp_r +]%
+{!<span class="party-tooltip-text" title="Progressive Party">PK</span>!}: [+ dvp_r +]%
 # 1928: 14, 1930: 7
-{!<span class="tooltip-text" title="Communist Party of Greece">KKE</span>!}: [+ dnvp_r +]%
+{!<span class="party-tooltip-text" title="Communist Party of Greece" style="color:DarkRed">KKE</span>!}: [+ dnvp_r +]%
 # 1928: 3, 1930: 18
-{!<span class="tooltip-text" title="Farmers' Party of Greece">AKE</span>!}: [+ nsdap_r +]%
+{!<span class="party-tooltip-text" title="Farmers' Party of Greece" style="color:Green">AKE</span>!}: [+ nsdap_r +]%
 # 1928: 9, 1930: 10
 Misc. Venizelists: [+ other_r +]%
 Misc. Anti-Venizelists: [+ other_r +]%
