@@ -43,6 +43,8 @@ Q.dues = 2;
 // the state of the party
 // overall dissent reduces every increase in party support.
 Q.de_name = "AEKE";
+Q.de_full_name = "Agricultural and Labor Country of Greece"
+Q.de_color = "#F08080"
 Q.dissent = 0.05;
 Q.dissent_percent = 5;
 
