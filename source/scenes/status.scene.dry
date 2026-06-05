@@ -45,8 +45,8 @@ Parliament composition:
 {!<span class="party-tooltip-text"  title="Progressive Party">PK</span>!}: [+ dvp_r +]% 
 {!<span class="party-tooltip-text" title="Communist Party of Greece" style="color:DarkRed">KKE</span>!}: [+ dnvp_r +]%
 {!<span class="party-tooltip-text" title="Farmers' Party of Greece" style="color:Green">AKE</span>!}: [+ nsdap_r +]% 
-Misc. Venizelists: [+ other_r +]% 
-Misc. Anti-Venizelists: [+ other_r +]%  
+{!<span style="color:#80720d">Misc. Venizelists</span>!}: [+ other_r +]% 
+{!<span style="color:#263094">Misc. Anti-Venizelists</span>!}: [+ other_r +]%  
 
 
 [? if spd_in_government = 1 : Budget: [+ budget +] ?]
