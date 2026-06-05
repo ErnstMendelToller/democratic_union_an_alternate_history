@@ -168,6 +168,9 @@ blockquote.attribution {
 blockquote + blockquote.attribution {
   margin-top: -1em;
 }
+.parl {
+  display: inline-block;
+}
 /* This is mostly copied from undum. */
 #mid_panel {
   margin: 0 16rem;
