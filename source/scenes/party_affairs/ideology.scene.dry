@@ -4,20 +4,20 @@ is-card: true
 tags: party_affairs
 view-if: ideology_timer = 0
 on-arrival: month_actions += 1; old_ideology = ideology; ideology_timer = 18
-card-image: img/arbeiterbew.jpg
+card-image: img/HeadOfAthena.jpg
 max-visits: 3
 #subtitle: Setting the party's ideological direction.
 
 = Questions of Ideology
 
-The SPD is torn between many different ideological currents. What should be our primary ideological guidance for now?
+<span style='color:LightCoral'>AEKE</span> is torn between many different ideological currents. What should be our primary ideological guidance for now?
 
 [? if ideology != 0 : We have previously chosen a [+ ideology +] ideology. Changing it will likely have drawbacks. ?]
 
-- @class_struggle: Class struggle and preparing the proletariat for the revolution are our primary goals.
-- @centrist: The Center Marxism of Karl Kautsky remains the best way to resolve our internal contradictions.
-- @labor: We should work with the trade unions to improve the lives of workers.
-- @reform: Following Eduard Bernstein, we should work for ethical socialism, strengthen democracy, and expand the party's electorate.
+- @class_struggle: The evolutionary way to Socialism is our goal.
+- @centrist: We must build social justice in a republican framework.
+- @labor: We are a party of the farming folk.
+- @reform: Our ideology is synonymous with the defence of the Republic.
 - @easy_discard
 
 @class_struggle
