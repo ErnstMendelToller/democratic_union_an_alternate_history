@@ -348,7 +348,7 @@ Q.nsdap_in_government = 0;
 
 Q.government_type = "Majority Parliamentarian";
 // Gvt type can be: Majority and Minority Parlianentarian, 
-
+Q.majoritarian = 1;
 Q.in_right_coalition = 0;
 // Weimar coalition = SPD + Z + DDP
 Q.in_weimar_coalition = 0;
