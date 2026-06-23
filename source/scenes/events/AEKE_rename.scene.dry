@@ -14,9 +14,9 @@ Our party's name, [+ de_name +], holds particular gravity in regard to our ideol
 There is precedent to this opinion; <span style="color:lightcoral">AEKE</span> is itself a renaming of Papanastasiou's original party, the <span style="color:#0f8dd6">Democratic Union</span>.
 
 - @nolol: It better fits the demagogues to change their ways in a whim. Our party's name is one.
-- @farmers: It is true, for we have become the party of a <span style="color:#057a24">single class</span>.
-- @liberal: Perhaps we must revert to our original name, that which is connected with the declaration of the <span style="color:#0f8dd6">Republic</span>.
-- @socialist: Indeed, our party's name must reflect our radical platform.
+- @farmers: They are right, for we have become the party of a <span style="color:#057a24">single class</span>.
+- @liberal: Perhaps we must revert to our original name, that which is connected with the declaration of the Republic.
+- @socialist: Our party's name must reflect our radical platform.
 
 @nolol
 
@@ -35,4 +35,4 @@ Our progressive liberal elements secure that the Democratic Union reinstates its
 @socialist
 on-arrival: de_name = "SDEK"
 
-It appears that Greece's reformist socialist movement has fully matured, as the <span style="color:#cc0a0a">Socialist Democratic Workers' Party</span> (SDEK) is born.
+It appears that Greece's reformist socialist movement has fully matured, as the <span style="color:#cc0a0a">Social Democratic Workers' Party</span> (SDEK) is born.
