@@ -4,22 +4,20 @@ is-card: true
 tags: party_affairs
 view-if: international_relations_timer <= 0
 on-arrival: month_actions += 1; international_relations_timer += 12;
-card-image: img/ententepowers.jpg
+card-image: img/PRRRS.jpg
 max-visits: 4
 #subtitle: Building ties with our international allies
 
 Our party's peculiar ideological makeup connects it both with the <span style="color:blue">Radical</span> and <span style="color:green">Green</span> internationals.
 
-- @fr_uk: Build relationships with the French SFIO and British Labour Party to move their governments in Germany's favor.
-- @austria: Learn agrarian organising from the <span style="color:green">peasant</span>parties of the Balkans and Central Europe.
-- @scandi: Learn the path of economic reform from the German <span style="color:red">SPD</span>
-- @comintern: Could we develop links with the <span style="color:black">PNF</span>
-- @america: Contact the Socialist party of America.
-- @return: We do not need international contacts at the moment.
+- @prrrs: Build relationships with the French PRRRS and the British Liberals and try to influence the French and British governments to our favor.
+- @second_international: Contact the <span style="color:#c00000">Labor and Socialist International</span> to initiate closer cooperation with the labor movement.
+- @peasants: Learn peasant organising from the International Agrarian Bureau.
+- @dvp: Contact the DVP.
 - @easy_discard
 - @cancel_advisor_action
 
-@fr_uk
+@prrrs
 subtitle: -1 resources
 choose-if: resources >= 1
 unavailable-subtitle: Not enough resources.
@@ -27,41 +25,11 @@ on-arrival: resources -= 1; west_relation += 1; reformist_strength += 5; pacifis
 
 The socialists of France and Britain can influence their governments to be friendlier towards Germany. Hopefully they will reduce our reparations burden.
 
-@austria
-subtitle: -1 resources [? if austrian_parliament_seen and not austrian_civil_war_seen: - We will also help the Austrians oppose their dictatorship. ?]
-choose-if: resources >= 1
-unavailable-subtitle: Not enough resources.
-audio: shuffle music/communist/workers_of_vienna_normalized.mp3
-on-arrival: left_strength += 5; radicalization += 1; rb_militancy += 0.03; resources -= 1; austria_relation += 1; sdapo_strength += 1 if austrian_parliament_seen = 1
+@second_international
 
-Our Reichsbanner can learn much in paramilitary organization and training from the Austrian Republikanischer Schutzbund (Republican Protection Units), the paramilitary branch of the Austrian social democrats.
+@peasants
 
-[? if austrian_parliament_seen and not austrian_civil_war_seen: We are also helping the Austrian Social Democratic Worker's Party build up their resources in preparation for a future struggle, legally and illegally. ?]
-
-
-@scandi
-subtitle: -1 resources
-choose-if: resources >= 1
-unavailable-subtitle: Not enough resources.
-on-arrival: reformist_strength += 8; wtb_support += 1; resources -= 1; moderate_plan_support += 1
-
-The programs of the Nordic socialists involve active government intervention in the economy. We can learn from their economic strategies, and how they moved beyond their working-class base to attract a broader set of constituents.
-
-@comintern
-subtitle: -1 resources 
-choose-if: resources >= 1 and social_fascism = 1
-unavailable-subtitle: Not enough resources. [? if social_fascism < 1 : Why would we do this? ?]
-on-arrival: resources -= 1; kpd_relation += 5*(1-dissent); communist_coalition += 1 if comintern_seen == 0; comintern_seen += 1
-
-The Stalinists of the KPD insists on calling us "social fascists", suggesting that we social democrats are as bad or worse than actual fascists. Needless to say, this is not good for our relationship with the Communists. By observing the Comintern, we can better understand the KPD, enabling us to potentially improve relations, or counter the KPD if it may come to that.
-
-@america
-subtitle: -1 resources
-choose-if: resources >= 1
-unavailable-subtitle: Not enough resources.
-on-arrival: resources -= 1
-
-The Socialist Party of America is tiny and has limited support. There is not much we can do for them, and conversely, not much they can do for us.
+@dvp
 
 @reduce
 
