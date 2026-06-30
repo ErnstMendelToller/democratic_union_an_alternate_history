@@ -51,6 +51,8 @@ for (var party of Q.parties) {
             Q[party + '_r'] = Q[party + '_votes'];
         }
         new_party_sum += Q[party + '_r'];
+         } else {
+        Q[party + '_r'] = Q[party + '_votes'];
     }
 
    
