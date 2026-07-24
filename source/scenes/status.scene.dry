@@ -42,13 +42,13 @@ Government Type: [+ government_type +]
 
 Parliament composition:
 
-{!<span class="party-tooltip-text" title="Agricultural and Labor Party of Greece" style="color:#F08080" style="font-weight: bold;">AEKE</span>!}: [+ spd_r +]%  
-{!<span class="party-tooltip-text" title="Liberal Party + Misc. Venizelists" style="color:Goldenrod">KF + Misc. Venizelists</span>!}: [+ z_r +]% 
-{!<span class="party-tooltip-text" title="People's Party" style="color:RoyalBlue">LK</span>!}: [+ kpd_r +]% 
-{!<span class="party-tooltip-text" title="Freethinkers' Party + Misc. Anti-Venizelists" style="color:#042d6b">KE + Misc. Antivenizelists</span>!}: [+ ddp_r +]% 
-{!<span class="party-tooltip-text"  title="Progressive Party" style="color:#80510a">PK</span>!}: [+ dvp_r +]% 
-{!<span class="party-tooltip-text" title="Communist Party of Greece" style="color:DarkRed">KKE</span>!}: [+ dnvp_r +]%
-{!<span class="party-tooltip-text" title="Farmers' Party of Greece" style="color:Green">AKE</span>!}: [+ nsdap_r +]% 
+{!<span class="party-tooltip-text" title="Agricultural and Labor Party of Greece" style="color:#F08080" style="font-weight: bold;">AEKE</span>!}: [+ aeke_r +]%  
+{!<span class="party-tooltip-text" title="Liberal Party + Misc. Venizelists" style="color:Goldenrod">KF + Misc. Venizelists</span>!}: [+ kf_r +]% 
+{!<span class="party-tooltip-text" title="People's Party" style="color:RoyalBlue">LK</span>!}: [+ kke_r +]% 
+{!<span class="party-tooltip-text" title="Freethinkers' Party + Misc. Anti-Venizelists" style="color:#042d6b">KE + Misc. Antivenizelists</span>!}: [+ lk_r +]% 
+{!<span class="party-tooltip-text"  title="Progressive Party" style="color:#80510a">PK</span>!}: [+ pk_r +]% 
+{!<span class="party-tooltip-text" title="Communist Party of Greece" style="color:DarkRed">KKE</span>!}: [+ ke_r +]%
+{!<span class="party-tooltip-text" title="Farmers' Party of Greece" style="color:Green">AKE</span>!}: [+ erk_r +]% 
 
 
 [? if spd_in_government = 1 : Budget: [+ budget +] ?]
