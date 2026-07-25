@@ -43,30 +43,26 @@ Q.dues = 2;
 // the state of the party
 // overall dissent reduces every increase in party support.
 Q.de_name = "AEKE";
-Q.de_full_name = "Agricultural and Labor Country of Greece"
+Q.de_full_name = "Agricultural and Labor Party of Greece"
 Q.de_color = "#F08080"
 Q.dissent = 0.05;
 Q.dissent_percent = 5;
 
 // factions
-Q.factions = ['socialist', 'agrarian', 'left-liberal'];
+Q.factions = ['socialist', 'agrarian', 'liberal'];
 // should this be normalized to 100%?
-Q.left_strength = 15;
-Q.left_dissent = 20;
-Q.center_strength = 30;
-Q.center_dissent = 0;
-Q.labor_strength = 25;
-Q.labor_dissent = 5;
-Q.reformist_strength = 25;
-Q.reformist_dissent = 5;
-Q.neorevisionist_strength = 5;
-Q.neorevisionist_dissent = 10;
+Q.socialist_strength = 15;
+Q.socialist_dissent = 20;
+Q.agrarian_strength = 30;
+Q.agrarian_dissent = 0;
+Q.liberal_strength = 25;
+Q.liberal_dissent = 5;
 Q.army_schemes = 0;
 
 // secret events...
 Q.unions_independent = 0;
 Q.centrists_resign = 0;
-Q.left_split = 0;
+Q.socialist_split = 0;
 Q.reformists_resigned = 0;
 
 // have we discovered neorevisionism?
@@ -312,16 +308,16 @@ Q.president = "Kountouriotis";
 Q.chancellor = "Venizelos";
 Q.chancellor_party = 'KF';
 Q.spd_in_government = 0;
-Q.z_in_government = 1;
+Q.z_in_government = 0;
 Q.ddp_in_government = 0;
-Q.dvp_in_government = 1;
-Q.ke_in_government = 1;
+Q.dvp_in_government = 0;
+Q.ke_in_government = 0;
 Q.kpd_in_government = 0;
 Q.erk_in_government = 0;
 
 Q.government_type = "Majority Parliamentarian";
 // Gvt type can be: Majority and Minority Parlianentarian, 
-Q.majoritarian = 1;
+Q.majoritarian = 0;
 Q.in_right_coalition = 0;
 // Weimar coalition = SPD + Z + DDP
 Q.in_weimar_coalition = 0;
@@ -482,7 +478,7 @@ Q.n_elections = 0;
 // number of elections without a clear majority.
 Q.no_majority_elections = 0;
 // elections are not on a timer, but rather there is an indicator for whether you're in an electoral cycle.
-Q.in_election = 1;
+Q.in_election = 0;
 Q.next_election_year = 1931;
 Q.next_election_month = 5;
 Q.next_election_time = 5;
@@ -553,7 +549,7 @@ Q.schumacher_advisor = 0; // Kurt Schumacher (post-1930)
 // Nonfactional advisors
 Q.hirschfeld_advisor = 0; // Magnus Hirschfeld
 Q.radbruch_advisor = 0; // Gustav Radbruch
-Q.stampfer_advisor = 0; // Friedrich Stampfer
+Q.stampfer_advisor  = 0; // Friedrich Stampfer
 !}
 set-bg: img/map_2.jpg
 new-page: true
