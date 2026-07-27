@@ -220,7 +220,7 @@ data = [
         "id": "kke",
         "legend": "KKE",
         "name": "KKE",
-        "seats": Math.round(Q.kpd_r*2.5),
+        "seats": Math.round(Q.kke_r*2.5),
     }
 ];
 if (Q.sapd_formed && Q.sapd_r) {
@@ -228,7 +228,7 @@ if (Q.sapd_formed && Q.sapd_r) {
             "id": "sapd",
             "legend": "SAPD",
             "name": "SAPD",
-            "seats": Math.round(Q.sapd_r*5),
+            "seats": Math.round(Q.sapd_r*2.5),
             });
 }
 data = data.concat([
@@ -238,6 +238,12 @@ data = data.concat([
         "name": "AEKE",
         "seats": Math.round(Q.aeke_r*2.5),
     },
+     {
+        "id": "pk",
+        "legend": "Progressive",
+        "name": "Progressive",
+        "seats": Math.round(Q.pk_r*2.5),
+    },
     {
         "id": "kf",
         "legend": "Liberal",
@@ -246,15 +252,9 @@ data = data.concat([
     },
     {
         "id": "lk",
-        "legend": "Peopl;e's",
+        "legend": "People's",
         "name": "People's",
         "seats": Math.round(Q.lk_r*2.5),
-    },
-    {
-        "id": "pk",
-        "legend": "Progressive",
-        "name": "Progressive",
-        "seats": Math.round(Q.pk_r*2.5),
     },
     {
         "id": "other",

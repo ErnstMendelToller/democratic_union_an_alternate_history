@@ -553,7 +553,7 @@ table {
 .seat.kke {
     fill: #8B0000;
 }
-.seat.spd {
+.seat.aeke {
     fill: #F88379;
     stroke: var(--border-color);
     stroke-width: 1.5px;
@@ -562,13 +562,16 @@ table {
     fill: #DCCA4A;
 }
 .seat.lk {
-    fill: #2600ff;
+    fill: #305CDE;
 }
 .seat.pk {
-    fill: #0da622;
+    fill: #80510a;
 }
 .seat.other {
     fill: #909090;
+}
+.seat.ake {
+    fill: #117d0f;
 }
 .seat.ke {
     fill: #0d4da6;

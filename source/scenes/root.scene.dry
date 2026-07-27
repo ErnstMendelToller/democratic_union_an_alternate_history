@@ -196,11 +196,10 @@ Q.capital_strike_progress = 0;
 Q.budget = 4;
 
 // Proportion of different social groups
-Q.workers = 26; // industry and trade
+Q.workers = 26; 
 Q.middle = 26;
-Q.peasant = 32
-Q.yeoman = 16; // agriculture and forestry employment... but many of those are proletarians so...
-
+Q.peasant = 33
+Q.yeoman = 16; 
  
 // unemployment: 1929 - 13.3, 1930 - 22.7, 1931 - 34.3, 1932 - 43.8 (same source as above)
 
@@ -232,41 +231,41 @@ Q.sapd_formed = 0;
 
 // Support for party by social group
 // they don't have to sum to 100 since the electoral calculations will be normalized.
-Q.workers_aeke = 60;
-Q.workers_kpd = 20;
-Q.workers_lk = 5;
-Q.workers_kf = 0;
-Q.workers_pk = 0;
-Q.workers_ke = 5;
-Q.workers_erk = 0;
-Q.workers_other = 10;
+Q.workers_aeke = 2;
+Q.workers_kke = 11;
+Q.workers_lk = 40;
+Q.workers_kf = 10;
+Q.workers_pk = 2;
+Q.workers_ke = 1;
+Q.workers_erk = 10;
+Q.workers_other = 1;
 
-Q.middle_aeke = 5;
-Q.middle_kpd = 0;
-Q.middle_lk = 5;
+Q.middle_aeke = 10;
+Q.middle_kke = 0;
+Q.middle_lk = 43;
 Q.middle_kf= 10;
-Q.middle_pk = 25;
-Q.middle_ke = 25;
-Q.middle_erk = 10;
-Q.middle_other = 10;
+Q.middle_pk = 20;
+Q.middle_ke = 10;
+Q.middle_erk = 5;
+Q.middle_other = 1;
 
-Q.yeoman_aeke = 5;
+Q.yeoman_aeke = 2;
 Q.yeoman_kke = 1;
-Q.yeoman_lk = 10;
-Q.yeoman_kf= 25;
-Q.yeoman_pk = 25;
-Q.yeoman_ke = 10;
-Q.yeoman_erk = 5;
-Q.yeoman_other = 15;
+Q.yeoman_lk = 50;
+Q.yeoman_kf= 2;
+Q.yeoman_pk = 7;
+Q.yeoman_ke = 2;
+Q.yeoman_erk = 2;
+Q.yeoman_other = 1;
 
-Q.peasant_aeke = 10;
-Q.peasant_kke = 0;
-Q.peasant_lk = 5;
-Q.peasant_kf= 5;
-Q.peasant_pk = 15;
-Q.peasant_ke = 45;
-Q.peasant_erk = 5;
-Q.peasant_other = 10;
+Q.peasant_aeke = 2;
+Q.peasant_kke = 5;
+Q.peasant_lk = 1;
+Q.peasant_kf= 70;
+Q.peasant_pk = 6;
+Q.peasant_ke = 0;
+Q.peasant_erk = 0;
+Q.peasant_other = 7;
 
 
 Q.aeke_r = 26;
@@ -300,13 +299,11 @@ Q.election_records = [];
 // party support records for every month
 Q.party_support_records = [];
 // inflation and unemployment records
-Q.economic_records = []; b
-
-
+Q.economic_records = [];
 
 Q.president = "Kountouriotis";
 Q.chancellor = "Venizelos";
-Q.chancellor_party = 'KF';
+Q.chancellor_party = "KF";
 Q.spd_in_government = 0;
 Q.z_in_government = 0;
 Q.ddp_in_government = 0;
@@ -478,10 +475,10 @@ Q.n_elections = 0;
 // number of elections without a clear majority.
 Q.no_majority_elections = 0;
 // elections are not on a timer, but rather there is an indicator for whether you're in an electoral cycle.
-Q.in_election = 0;
+Q.in_election = 1;
 Q.next_election_year = 1931;
 Q.next_election_month = 5;
-Q.next_election_time = 5;
+Q.next_election_time = 0;
 // government affairs timers
 Q.agricultural_policy_timer = 0;
 Q.domestic_enemies_timer = 0;
@@ -509,9 +506,8 @@ Q.kpd_ultimatum_timer = 0;
 Q.march_on_berlin_timer = 0;
 
 
-// all the initial advisors are centrists.
 Q.bakalbasis_advisor = 1; // Agrarian guy
-Q.papanastasiou_advisor = 1; // Eternal President Alekos Papanastasis
+Q.papanastasiou_advisor = 1; // Eternal President 
 Q.muller_dead = 0;
 // okay I know Arthur Crispien was a leader irl but i couldn't find much interesting about him...
 Q.crispien_advisor = 0; // Arthur Crispien
@@ -600,7 +596,7 @@ audio: shuffle music/1928_1930/FruhlingsliedMendelssohn.mp3 music/1928_1930/AUF_
 new-page: true
 go-to: main if difficulty >= 0; main.main_easy if difficulty < 0
 
-= 1928
+= 1931ss
 
 It is a bright time for German democracy. After a period of struggle, inflation is finally under control, and the economy is expanding steadily. In foreign policy, we have reached agreements with the Western powers and the Soviet Union that might make genuine peace a reality. 
 

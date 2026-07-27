@@ -44,11 +44,11 @@ Parliament composition:
 
 {!<span class="party-tooltip-text" title="Agricultural and Labor Party of Greece" style="color:#F08080" style="font-weight: bold;">AEKE</span>!}: [+ aeke_r +]%  
 {!<span class="party-tooltip-text" title="Liberal Party + Misc. Venizelists" style="color:Goldenrod">KF + Misc. Venizelists</span>!}: [+ kf_r +]% 
-{!<span class="party-tooltip-text" title="People's Party" style="color:RoyalBlue">LK</span>!}: [+ kke_r +]% 
-{!<span class="party-tooltip-text" title="Freethinkers' Party + Misc. Anti-Venizelists" style="color:#042d6b">KE + Misc. Antivenizelists</span>!}: [+ lk_r +]% 
+{!<span class="party-tooltip-text" title="People's Party" style="color:RoyalBlue">LK</span>!}: [+ lk_r +]% 
+{!<span class="party-tooltip-text" title="Freethinkers' Party + Misc. Anti-Venizelists" style="color:#042d6b">KE + Misc. Antivenizelists</span>!}: [+ ke_r +]% 
 {!<span class="party-tooltip-text"  title="Progressive Party" style="color:#80510a">PK</span>!}: [+ pk_r +]% 
-{!<span class="party-tooltip-text" title="Communist Party of Greece" style="color:DarkRed">KKE</span>!}: [+ ke_r +]%
-{!<span class="party-tooltip-text" title="Farmers' Party of Greece" style="color:Green">AKE</span>!}: [+ erk_r +]% 
+{!<span class="party-tooltip-text" title="Communist Party of Greece" style="color:DarkRed">KKE</span>!}: [+ kke_r +]%
+{!<span class="party-tooltip-text" title="Farmers' Party of Greece" style="color:#117d0f">AKE</span>!}: [+ erk_r +]% 
 
 
 [? if spd_in_government = 1 : Budget: [+ budget +] ?]
@@ -152,21 +152,21 @@ Q.socialism_disp = Math.round(Q.socialism);
 
 (if the election were to be held now):
 
-SPD: [+ spd_votes +]%
+SPD: [+ aeke_votes +]%
 
 [? if sapd_formed: SAPD: [+ sapd_votes +]% ?]
 
-Z + BVP: [+ z_votes +]%
+Z + BVP: [+ lk_votes +]%
 
-KPD: [+ kpd_votes +]%
+KPD: [+ kke_votes +]%
 
-[? if not ddp_name: DDP?][? if ddp_name != 0 : [+ ddp_name +]?]: [+ ddp_votes +]%
+[? if not ddp_name: DDP?][? if ddp_name != 0 : [+ ddp_name +]?]: [+ kf_votes +]%
 
-DVP: [+ dvp_votes +]%
+DVP: [+ pk_votes +]%
 
-DNVP: [+ dnvp_votes +]%
+DNVP: [+ ke_votes +]%
 
-NSDAP: [+ nsdap_votes +]%
+NSDAP: [+ erk_votes +]%
 
 Others: [+ other_votes +]%
 
