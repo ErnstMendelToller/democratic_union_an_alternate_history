@@ -247,11 +247,19 @@ blockquote + blockquote.attribution {
 }
 
 .status_image {
-   margin: 20px;
-  border: 5px solid #F88379;
-  width: 75%;
-  height: 100%;
+ margin: 20px;
+ width: 150px;
+ height: 150px;
+ border: 5px solid #F88379;
 }
+.status_image img {
+  object-fit: cover;
+}
+.status_text {
+   margin-left: 20px;
+  line-height: 0.7;
+}
+
 .overlay {
     background: rgba(0,0,0,0.7);
     display: none;

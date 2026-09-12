@@ -67,14 +67,29 @@ Economic growth: [+ economic_growth_2 +]%
 
 = The Party
 
-Party Status: Hybrid
+Party Structure: Hybrid
 
-= The Class Coalition:
+= The Class Coalition
 
 <h3 style="text-align: center"> Farmers </h4>
-<div class="status_image"> <img src="img/braun.jpg"></div>
-Farmer Radicalism: [+ farmer_radicalism +]
-Farmer Support of <span style="color:coral">AEK</span>: [+ farmers_aek +]
+<div class="status_image"><img src="img/Dollfuss.jpg"></div>
+<div class="status_text">Farmer Radicalism: [+ farmer_radicalism +]<br>
+Farmer Support of <span style="color:coral">AEK</span>: [+ peasant_aek +]</div>
+
+<h3 style="text-align: center"> Workers </h4>
+<div class="status_image"><img src="img/Dollfuss.jpg"></div>
+<div class="status_text"> Worker Radicalism: [+ farmer_radicalism +]<br>
+Worker Support of <span style="color:coral">AEK</span>: [+ peasant_aek +]</div>
+
+<h3 style="text-align: center"> Refugees </h4>
+<div class="status_image"><img src="img/Dollfuss.jpg"></div>
+<div class="status_text">Refugee Radicalism: [+ farmer_radicalism +]<br>
+Refugee Support of <span style="color:coral">AEK</span>: [+ refugee_aek +]</div>
+
+<h3 style="text-align: center"> Employees </h4>
+<div class="status_image"><img src="img/Dollfuss.jpg"></div>
+<div class="status_text">Employee Radicalism: [+ farmer_radicalism +]<br>
+Employee Support of <span style="color:coral">AEK</span>: [+ peasant_aek +]</div>
 
 # = Public Opinion
 
