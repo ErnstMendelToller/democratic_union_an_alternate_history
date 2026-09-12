@@ -42,13 +42,13 @@ Government Type: [+ government_type +]
 
 Parliament composition:
 
-{!<span class="party-tooltip-text" title="Agricultural and Labor Party of Greece" style="color:#F08080" style="font-weight: bold;">AEKE</span>!}: [+ aeke_r +]%  
+{!<span class="party-tooltip-text" title="Agricultural and Labor Party of Greece" style="color:#F08080" style="font-weight: bold;">AEK</span>!}: [+ aek_r +]%  
 {!<span class="party-tooltip-text" title="Liberal Party + Misc. Venizelists" style="color:Goldenrod">KF + Misc. Venizelists</span>!}: [+ kf_r +]% 
 {!<span class="party-tooltip-text" title="People's Party" style="color:RoyalBlue">LK</span>!}: [+ lk_r +]% 
 {!<span class="party-tooltip-text" title="Freethinkers' Party + Misc. Anti-Venizelists" style="color:#042d6b">KE + Misc. Antivenizelists</span>!}: [+ ke_r +]% 
 {!<span class="party-tooltip-text"  title="Progressive Party" style="color:#80510a">PK</span>!}: [+ pk_r +]% 
 {!<span class="party-tooltip-text" title="Communist Party of Greece" style="color:DarkRed">KKE</span>!}: [+ kke_r +]%
-{!<span class="party-tooltip-text" title="Farmers' Party of Greece" style="color:#117d0f">AKE</span>!}: [+ erk_r +]% 
+{!<span class="party-tooltip-text" title="Farmers' Party of Greece" style="color:#117d0f">AKE</span>!}: [+ ake_r +]% 
 
 
 [? if spd_in_government = 1 : Budget: [+ budget +] ?]
@@ -63,7 +63,18 @@ Inflation: [+ inflation_2 +]%
 
 Economic growth: [+ economic_growth_2 +]%
 
+@party
 
+= The Party
+
+Party Status: Hybrid
+
+= The Class Coalition:
+
+<h3 style="text-align: center"> Farmers </h4>
+<div class="status_image"> <img src="img/braun.jpg"></div>
+Farmer Radicalism: [+ farmer_radicalism +]
+Farmer Support of <span style="color:coral">AEK</span>: [+ farmers_aek +]
 
 # = Public Opinion
 

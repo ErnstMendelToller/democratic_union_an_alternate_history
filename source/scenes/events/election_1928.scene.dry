@@ -233,10 +233,16 @@ if (Q.sapd_formed && Q.sapd_r) {
 }
 data = data.concat([
     {
-        "id": "aeke",
-        "legend": "AEKE",
-        "name": "AEKE",
-        "seats": Math.round(Q.aeke_r*2.5),
+        "id": "ake",
+        "legend":"AKE",
+        "name": "AKE",
+        "seats": Math.round(Q.ake_r*2.5),
+    },
+    {
+        "id": "aek",
+        "legend": "AEK",
+        "name": "AEK",
+        "seats": Math.round(Q.aek_r*2.5),
     },
      {
         "id": "pk",
@@ -251,16 +257,16 @@ data = data.concat([
         "seats": Math.round(Q.kf_r*2.5),
     },
     {
-        "id": "lk",
-        "legend": "People's",
-        "name": "People's",
-        "seats": Math.round(Q.lk_r*2.5),
-    },
-    {
         "id": "other",
         "legend": "Other",
         "name": "Other",
         "seats": Math.round(Q.other_r*2.5),
+    },
+    {
+        "id": "lk",
+        "legend": "People's",
+        "name": "People's",
+        "seats": Math.round(Q.lk_r*2.5),
     },
     {
         "id": "ke",
@@ -300,26 +306,24 @@ go-to: coalition_menu
 {!<svg id="reichstag" style="width: 500px; height: 250px;"> </svg>!}
 
 {!<table>!} 
-{!<tr><td>Party</td><td>Vote share</td><td>% Change</td></tr>!}
-{!<tr><td><div class="box" style='background-color:#E3000F; outline: 2px; outline-style: solid;'> </div> !} **SPD:** {!</td><td>!} **[+ spd_r +]%** {!</td><td>!} **[+ str_change_spd +]** {!</td></tr>!}
+{!<tr><td>Party</td><td>Vote share</td><td>% Change</td><td>Seats</td></tr>!}
+{!<tr><td><div class="box" style='background-color:#E3000F; outline: 2px; outline-style: solid;'> </div> !} **AEK** {!</td><td>!} **[+ aek_r +]%** {!</td><td>!} **[+ str_change_aek +]** {!</td></tr>!}
 
-[? if sapd_formed : {!<tr><td><div class="box" style='background-color:#C40000'> </div> !}SAPD: {!</td><td>!} [+ sapd_r +]% {!</td><td>!} [+ str_change_sapd +] {!</td></tr>!} ?]
+{!<tr><td><div class="box" style='background-color:#8B0000'> </div> !}[+ kke_name +]: {!</td><td>!} [+ kke_r +]% {!</td><td>!} [+ str_change_kke +] {!</td></tr>!}
 
-{!<tr><td><div class="box" style='background-color:#8B0000'> </div> !}KPD: {!</td><td>!} [+ kpd_r +]% {!</td><td>!} [+ str_change_kpd +] {!</td></tr>!}
+{!<tr><td><div class="box" style='background-color:#a0a0a0'> </div> !} AKE: {!</td><td>!} [+ ake_r +] % {!</td><td>!} [+ str_change_ake +] {!</td></tr>!}
 
-{!<tr><td><div class="box" style='background-color:#DCCA4A'> </div> !} [+ ddp_name +]: {!</td><td>!} [+ ddp_r +]% {!</td><td>!} [+ str_change_ddp +] {!</td></tr>!}
+{!<tr><td><div class="box" style='background-color:#D5AC27'> </div> !} PK: {!</td><td>!} [+ pk_r +]% {!</td><td>!} [+ str_change_pk +] {!</td></tr>!}
 
-{!<tr><td><div class="box" style='background-color:#000'> </div> !} Z: {!</td><td>!} [+ z_minus_bvp_r +]% {!</td><td>!} [+ str_change_z +] {!</td></tr>!}
+{!<tr><td><div class="box" style='background-color:#DCCA4A'> </div> !} KF: {!</td><td>!} [+ kf_r +]% {!</td><td>!} [+ str_change_kf +] {!</td></tr>!}
 
-{!<tr><td><div class="box" style='background-color:#69A2BE'> </div> !} BVP: {!</td><td>!} 3% {!</td><td>!} 0 {!</td></tr>!}
+{!<tr><td><div class="box" style='background-color:#000'> </div> !} LK: {!</td><td>!} [ lk_r ]% {!</td><td>!} [+ str_change_lk +] {!</td></tr>!}
 
-{!<tr><td><div class="box" style='background-color:#D5AC27'> </div> !} DVP: {!</td><td>!} [+ dvp_r +]% {!</td><td>!} [+ str_change_dvp +] {!</td></tr>!}
- 
 {!<tr><td><div class="box" style='background-color:#a0a0a0'> </div> !} Others: {!</td><td>!} [+ other_r +] % {!</td><td>!} [+ str_change_other +] {!</td></tr>!}
 
-{!<tr><td><div class="box" style='background-color:#3f7bc1'> </div> !} DNVP: {!</td><td>!} [+ dnvp_r +]% {!</td><td>!} [+ str_change_dnvp +] {!</td></tr>!}
+{!<tr><td><div class="box" style='background-color:#3f7bc1'> </div> !} ERK: {!</td><td>!} [+ erk_r +]% {!</td><td>!} [+ str_change_erk +] {!</td></tr>!}
 
-{!<tr><td><div class="box" style='background-color:#954B00'> </div> !} NSDAP: {!</td><td>!} [+ nsdap_r +]% {!</td><td>!} [+ str_change_nsdap +] {!</td></tr>!}
+{!<tr><td><div class="box" style='background-color:#954B00'> </div> !} KE: {!</td><td>!} [+ ke_r +]% {!</td><td>!} [+ str_change_ke +] {!</td></tr>!}
 {!</table>!}
 
 **Potential coalitions:**

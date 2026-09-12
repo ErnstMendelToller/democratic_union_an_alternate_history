@@ -246,7 +246,12 @@ blockquote + blockquote.attribution {
     background-color: var(--tab-hover-color);
 }
 
-
+.status_image {
+   margin: 20px;
+  border: 5px solid #F88379;
+  width: 75%;
+  height: 100%;
+}
 .overlay {
     background: rgba(0,0,0,0.7);
     display: none;
@@ -553,7 +558,7 @@ table {
 .seat.kke {
     fill: #8B0000;
 }
-.seat.aeke {
+.seat.aek {
     fill: #F88379;
     stroke: var(--border-color);
     stroke-width: 1.5px;
