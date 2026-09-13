@@ -242,7 +242,7 @@ Q.workers_erk = 2;
 Q.workers_ake = 0;
 Q.workers_other = 0;
 
-Q.middle_aek = 10;
+Q.middle_aek = 5;
 Q.middle_kke = 0;
 Q.middle_lk = 40;
 Q.middle_kf= 10;
@@ -262,7 +262,7 @@ Q.yeoman_erk = 1;
 Q.yeoman_ake = 7;
 Q.yeoman_other = 1;
 
-Q.refugee_aek = 2;
+Q.refugee_aek = 4;
 Q.refugee_kke = 5;
 Q.refugee_lk = 2;
 Q.refugee_kf= 79;
@@ -272,7 +272,7 @@ Q.refugee_erk = 6;
 Q.refugee_ake = 6;
 Q.refugee_other = 1;
 
-Q.peasant_aek = 2;
+Q.peasant_aek = 7;
 Q.peasant_kke = 5;
 Q.peasant_lk = 1;
 Q.peasant_kf= 70;
